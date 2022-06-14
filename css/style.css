@@ -226,4 +226,55 @@ section .h1{
     margin-top: 20px;
 }
 
+@media( max-width: 450px ) {
+    .small-img{
+        bottom: -232px;
+        left: 0px;
+    }
 
+    .big-img{
+        width: 386px;
+        padding: 0px;
+        border: none;
+    }
+
+    .about-us-content figure{
+        left: 20px;
+        }
+
+    .section-main1{
+        display: none;
+    }
+    
+    .about-us-content{
+        flex-direction: column;
+        top: -110px;
+    }
+
+    .about-us-text{
+        flex-wrap: wrap;
+        margin-right: 600px;
+        right: 170px;
+        top: 220px;
+    }
+
+    .header-contact-us a{
+        display: none;
+    }
+
+    .hero{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    header .container{
+        display: none;
+    }
+
+    header{
+        border: none;
+    }
+}
