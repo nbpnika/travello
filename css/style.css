@@ -228,19 +228,18 @@ section .h1{
 
 @media( max-width: 450px ) {
     .small-img{
-        bottom: -232px;
+        bottom: 0px;
         left: 0px;
+        width: 100%;
+        position: relative;
+        top: -4px;
     }
 
     .big-img{
-        width: 386px;
+        width: 100%;
         padding: 0px;
         border: none;
     }
-
-    .about-us-content figure{
-        left: 20px;
-        }
 
     .section-main1{
         display: none;
@@ -253,9 +252,9 @@ section .h1{
 
     .about-us-text{
         flex-wrap: wrap;
-        margin-right: 600px;
-        right: 170px;
-        top: 220px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0 10px;
     }
 
     .header-contact-us a{
@@ -276,5 +275,9 @@ section .h1{
 
     header{
         border: none;
+    }
+
+    .container{
+        width: 100%;
     }
 }
